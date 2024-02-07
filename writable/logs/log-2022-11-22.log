@@ -1,0 +1,30 @@
+CRITICAL - 2022-11-22 01:21:59 --> Unmatched '}'
+#0 C:\xampp\htdocs\naruto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\naruto\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\xampp\htdocs\naruto\app\Controllers\Home.php(94): view('menu')
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(832): App\Controllers\Home->t_jual()
+#4 C:\xampp\htdocs\naruto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-11-22 01:26:45 --> Unclosed '{' on line 28
+#0 C:\xampp\htdocs\naruto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\naruto\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\xampp\htdocs\naruto\app\Controllers\Home.php(94): view('menu')
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(832): App\Controllers\Home->t_jual()
+#4 C:\xampp\htdocs\naruto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-11-22 01:27:50 --> Unclosed '{' on line 37
+#0 C:\xampp\htdocs\naruto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\naruto\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\xampp\htdocs\naruto\app\Controllers\Home.php(94): view('menu')
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(832): App\Controllers\Home->t_jual()
+#4 C:\xampp\htdocs\naruto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

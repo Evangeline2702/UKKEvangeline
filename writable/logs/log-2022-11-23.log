@@ -1,0 +1,58 @@
+CRITICAL - 2022-11-23 00:04:55 --> Unmatched '}'
+#0 C:\xampp\htdocs\naruto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\naruto\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\xampp\htdocs\naruto\app\Controllers\Home.php(106): view('menu')
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\naruto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-11-23 22:15:38 --> Unknown column '2022-11-24' in 'where clause'
+CRITICAL - 2022-11-23 22:15:38 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\naruto\app\Controllers\Home.php(523): App\Models\M_pj->filter('barang', '2022-11-24', '2022-11-24')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(832): App\Controllers\Home->pdf_b()
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-11-23 22:16:22 --> Not unique table/alias: 'barang'
+CRITICAL - 2022-11-23 22:16:22 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\naruto\app\Controllers\Home.php(523): App\Models\M_pj->filter2('barang', '2022-11-24', '2022-11-24')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(832): App\Controllers\Home->pdf_b()
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-23 22:16:33 --> Invalid file: cetak_barang.php
+#0 C:\xampp\htdocs\naruto\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cetak_barang.ph...')
+#1 C:\xampp\htdocs\naruto\system\Common.php(1089): CodeIgniter\View\View->render('cetak_barang', Array, true)
+#2 C:\xampp\htdocs\naruto\app\Controllers\Home.php(526): view('cetak_barang', Array)
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(832): App\Controllers\Home->pdf_b()
+#4 C:\xampp\htdocs\naruto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-11-23 22:17:28 --> Invalid file: cari_b.php
+#0 C:\xampp\htdocs\naruto\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cari_b.php')
+#1 C:\xampp\htdocs\naruto\system\Common.php(1089): CodeIgniter\View\View->render('cari_b', Array, true)
+#2 C:\xampp\htdocs\naruto\app\Controllers\Home.php(526): view('cari_b', Array)
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(832): App\Controllers\Home->pdf_b()
+#4 C:\xampp\htdocs\naruto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-11-23 22:40:47 --> syntax error, unexpected identifier "alt", expecting "," or ";"
+#0 C:\xampp\htdocs\naruto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\naruto\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#2 C:\xampp\htdocs\naruto\app\Controllers\Home.php(106): view('header')
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\naruto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

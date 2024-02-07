@@ -1,0 +1,109 @@
+CRITICAL - 2023-09-18 22:38:43 --> Attempt to read property "id_brg" on null
+#0 C:\xampp\htdocs\naruto\app\Views\edit_barang.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\naruto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\naruto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\naruto\system\Common.php(1089): CodeIgniter\View\View->render('edit_barang', Array, true)
+#4 C:\xampp\htdocs\naruto\app\Controllers\Home.php(238): view('edit_barang', Array)
+#5 C:\xampp\htdocs\naruto\system\CodeIgniter.php(832): App\Controllers\Home->edit_b('images', 'img.jpg')
+#6 C:\xampp\htdocs\naruto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-09-18 22:40:06 --> Unknown column 'id_brg' in 'field list'
+CRITICAL - 2023-09-18 22:40:20 --> Attempt to read property "id_brg" on null
+#0 C:\xampp\htdocs\naruto\app\Views\edit_barang.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\naruto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\naruto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\naruto\system\Common.php(1089): CodeIgniter\View\View->render('edit_barang', Array, true)
+#4 C:\xampp\htdocs\naruto\app\Controllers\Home.php(238): view('edit_barang', Array)
+#5 C:\xampp\htdocs\naruto\system\CodeIgniter.php(832): App\Controllers\Home->edit_b('images', 'img.jpg')
+#6 C:\xampp\htdocs\naruto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-18 22:42:36 --> Undefined property: stdClass::$id_brg
+#0 C:\xampp\htdocs\naruto\app\Views\transaksi.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\naruto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\naruto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\naruto\system\Common.php(1089): CodeIgniter\View\View->render('transaksi', Array, true)
+#4 C:\xampp\htdocs\naruto\app\Controllers\Home.php(96): view('transaksi', Array)
+#5 C:\xampp\htdocs\naruto\system\CodeIgniter.php(832): App\Controllers\Home->t_jual()
+#6 C:\xampp\htdocs\naruto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-18 22:50:30 --> Undefined property: stdClass::$id_brg
+#0 C:\xampp\htdocs\naruto\app\Views\transaksi.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\naruto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\naruto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\naruto\system\Common.php(1089): CodeIgniter\View\View->render('transaksi', Array, true)
+#4 C:\xampp\htdocs\naruto\app\Controllers\Home.php(96): view('transaksi', Array)
+#5 C:\xampp\htdocs\naruto\system\CodeIgniter.php(832): App\Controllers\Home->t_jual()
+#6 C:\xampp\htdocs\naruto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-18 22:51:02 --> Undefined property: stdClass::$id_brg
+#0 C:\xampp\htdocs\naruto\app\Views\transaksi.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\naruto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\naruto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\naruto\system\Common.php(1089): CodeIgniter\View\View->render('transaksi', Array, true)
+#4 C:\xampp\htdocs\naruto\app\Controllers\Home.php(96): view('transaksi', Array)
+#5 C:\xampp\htdocs\naruto\system\CodeIgniter.php(832): App\Controllers\Home->t_jual()
+#6 C:\xampp\htdocs\naruto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-18 22:53:26 --> Undefined property: stdClass::$id_trans
+#0 C:\xampp\htdocs\naruto\app\Views\transaksi.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\naruto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\naruto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\naruto\system\Common.php(1089): CodeIgniter\View\View->render('transaksi', Array, true)
+#4 C:\xampp\htdocs\naruto\app\Controllers\Home.php(96): view('transaksi', Array)
+#5 C:\xampp\htdocs\naruto\system\CodeIgniter.php(832): App\Controllers\Home->t_jual()
+#6 C:\xampp\htdocs\naruto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-09-18 22:54:15 --> Unknown column 'id_brg' in 'field list'
+CRITICAL - 2023-09-18 23:02:48 --> Class "App\Controllers\Spreadsheet" not found
+#0 C:\xampp\htdocs\naruto\system\CodeIgniter.php(832): App\Controllers\Home->excel_barang()
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-18 23:03:21 --> Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+#0 C:\xampp\htdocs\naruto\system\CodeIgniter.php(832): App\Controllers\Home->excel_barang()
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-18 23:03:29 --> Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+#0 C:\xampp\htdocs\naruto\system\CodeIgniter.php(832): App\Controllers\Home->excel_barang()
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-18 23:27:21 --> Attempt to read property "id_brg" on null
+#0 C:\xampp\htdocs\naruto\app\Views\edit_barang.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\naruto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\naruto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\naruto\system\Common.php(1089): CodeIgniter\View\View->render('edit_barang', Array, true)
+#4 C:\xampp\htdocs\naruto\app\Controllers\Home.php(242): view('edit_barang', Array)
+#5 C:\xampp\htdocs\naruto\system\CodeIgniter.php(832): App\Controllers\Home->edit_b('images', 'img.jpg')
+#6 C:\xampp\htdocs\naruto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-09-18 23:28:11 --> Unknown column 'id_brg' in 'field list'
+ERROR - 2023-09-18 23:28:49 --> Unknown column 'id_brg' in 'field list'

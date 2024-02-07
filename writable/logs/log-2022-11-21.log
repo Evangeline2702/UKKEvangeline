@@ -1,0 +1,90 @@
+CRITICAL - 2022-11-21 00:13:46 --> Undefined property: stdClass::$nama_brg
+#0 C:\xampp\htdocs\naruto\app\Views\barang_masuk.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\naruto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\naruto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\naruto\system\Common.php(1089): CodeIgniter\View\View->render('barang_masuk', Array, true)
+#4 C:\xampp\htdocs\naruto\app\Controllers\Home.php(62): view('barang_masuk', Array)
+#5 C:\xampp\htdocs\naruto\system\CodeIgniter.php(832): App\Controllers\Home->t_masuk()
+#6 C:\xampp\htdocs\naruto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-21 00:30:19 --> syntax error, unexpected token "if"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-21 01:09:02 --> syntax error, unexpected token "else", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/dashboard')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/dashboard')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-21 01:09:24 --> syntax error, unexpected token "else", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/dashboard')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/dashboard')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-21 01:18:25 --> syntax error, unexpected token "else", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/dashboard')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/dashboard')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-21 01:20:01 --> syntax error, unexpected token "else", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/dashboard')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/dashboard')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-21 01:21:39 --> syntax error, unexpected token "public"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/dashboard')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/dashboard')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-21 18:34:38 --> syntax error, unexpected token "}", expecting ";" or "{"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('rumah')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('rumah')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-21 19:59:57 --> Class "App\Models\Model" not found
+#0 C:\xampp\htdocs\naruto\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\naruto\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\naruto\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_p')
+#3 C:\xampp\htdocs\naruto\app\Controllers\rumah.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_p')
+#4 C:\xampp\htdocs\naruto\system\CodeIgniter.php(832): App\Controllers\rumah->index()
+#5 C:\xampp\htdocs\naruto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\rumah))
+#6 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-11-21 20:01:27 --> Class "App\Models\Model" not found
+#0 C:\xampp\htdocs\naruto\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\naruto\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\naruto\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_p')
+#3 C:\xampp\htdocs\naruto\app\Controllers\rumah.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_p')
+#4 C:\xampp\htdocs\naruto\system\CodeIgniter.php(832): App\Controllers\rumah->index()
+#5 C:\xampp\htdocs\naruto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\rumah))
+#6 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}

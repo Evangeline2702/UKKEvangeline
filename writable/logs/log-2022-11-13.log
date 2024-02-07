@@ -1,0 +1,320 @@
+CRITICAL - 2022-11-13 21:25:32 --> syntax error, unexpected variable "$username", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_b')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_b')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-13 21:26:59 --> syntax error, unexpected variable "$username", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_b')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_b')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-13 23:36:48 --> syntax error, unexpected variable "$username", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_b')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_b')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-13 23:36:49 --> syntax error, unexpected variable "$username", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_b')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_b')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-13 23:36:50 --> syntax error, unexpected variable "$username", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_b')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_b')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-13 23:36:50 --> syntax error, unexpected variable "$username", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_b')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_b')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-13 23:36:51 --> syntax error, unexpected variable "$username", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_b')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_b')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-13 23:36:51 --> syntax error, unexpected variable "$username", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_b')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_b')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-13 23:36:52 --> syntax error, unexpected variable "$username", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_b')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_b')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-13 23:36:52 --> syntax error, unexpected variable "$username", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_b')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_b')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-13 23:36:53 --> syntax error, unexpected variable "$username", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_b')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_b')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-13 23:36:53 --> syntax error, unexpected variable "$username", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_b')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_b')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-13 23:36:54 --> syntax error, unexpected variable "$username", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_b')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_b')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-13 23:36:54 --> syntax error, unexpected variable "$username", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_b')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_b')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-13 23:36:55 --> syntax error, unexpected variable "$username", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_b')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_b')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-13 23:36:55 --> syntax error, unexpected variable "$username", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_b')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_b')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-13 23:36:56 --> syntax error, unexpected variable "$username", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_b')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_b')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-13 23:36:57 --> syntax error, unexpected variable "$username", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_b')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_b')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-13 23:36:58 --> syntax error, unexpected variable "$username", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_b')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_b')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-13 23:36:59 --> syntax error, unexpected variable "$username", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_b')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_b')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-13 23:37:01 --> syntax error, unexpected variable "$username", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_b')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_b')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-13 23:37:02 --> syntax error, unexpected variable "$username", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_b')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_b')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-13 23:37:03 --> syntax error, unexpected variable "$username", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_b')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_b')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-13 23:37:04 --> syntax error, unexpected variable "$username", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_b')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_b')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-13 23:37:05 --> syntax error, unexpected variable "$username", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_b')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_b')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-13 23:38:42 --> syntax error, unexpected variable "$usernama", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_b')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_b')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-13 23:38:52 --> syntax error, unexpected variable "$username", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_b')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_b')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-13 23:38:53 --> syntax error, unexpected variable "$username", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_b')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_b')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-13 23:38:54 --> syntax error, unexpected variable "$username", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_b')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_b')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-13 23:38:54 --> syntax error, unexpected variable "$username", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_b')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_b')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-13 23:39:10 --> syntax error, unexpected variable "$evan", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_b')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_b')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-13 23:45:43 --> syntax error, unexpected variable "$username", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_b')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_b')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-13 23:45:44 --> syntax error, unexpected variable "$username", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_b')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_b')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-13 23:45:44 --> syntax error, unexpected variable "$username", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_b')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_b')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-13 23:47:21 --> syntax error, unexpected variable "$username", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_b')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_b')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-13 23:49:50 --> syntax error, unexpected variable "$password", expecting "function" or "const"
+#0 C:\xampp\htdocs\naruto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_b')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_b')
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-13 23:50:34 --> Attempt to read property "id_brg" on null
+#0 C:\xampp\htdocs\naruto\app\Views\edit_barang.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\naruto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\naruto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\naruto\system\Common.php(1089): CodeIgniter\View\View->render('edit_barang', Array, true)
+#4 C:\xampp\htdocs\naruto\app\Controllers\Home.php(122): view('edit_barang', Array)
+#5 C:\xampp\htdocs\naruto\system\CodeIgniter.php(832): App\Controllers\Home->edit_b('images', 'img.jpg')
+#6 C:\xampp\htdocs\naruto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-13 23:58:01 --> Invalid file: transaksi_bm.php
+#0 C:\xampp\htdocs\naruto\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi_bm.ph...')
+#1 C:\xampp\htdocs\naruto\system\Common.php(1089): CodeIgniter\View\View->render('transaksi_bm', Array, true)
+#2 C:\xampp\htdocs\naruto\app\Controllers\Home.php(61): view('transaksi_bm', Array)
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(832): App\Controllers\Home->t_masuk()
+#4 C:\xampp\htdocs\naruto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-11-13 23:58:35 --> Invalid file: transaksi_bm.php
+#0 C:\xampp\htdocs\naruto\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi_bm.ph...')
+#1 C:\xampp\htdocs\naruto\system\Common.php(1089): CodeIgniter\View\View->render('transaksi_bm', Array, true)
+#2 C:\xampp\htdocs\naruto\app\Controllers\Home.php(61): view('transaksi_bm', Array)
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(832): App\Controllers\Home->t_masuk()
+#4 C:\xampp\htdocs\naruto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

@@ -1,0 +1,78 @@
+CRITICAL - 2022-11-10 00:05:43 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\naruto\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\naruto\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\naruto\app\Controllers\Home.php(224): CodeIgniter\Model->__call('join', Array)
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(832): App\Controllers\Home->karyawan()
+#4 C:\xampp\htdocs\naruto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-11-10 00:06:34 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\naruto\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\naruto\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\naruto\app\Controllers\Home.php(224): CodeIgniter\Model->__call('join', Array)
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(832): App\Controllers\Home->karyawan()
+#4 C:\xampp\htdocs\naruto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-11-10 00:06:51 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\naruto\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\naruto\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\naruto\app\Controllers\Home.php(224): CodeIgniter\Model->__call('join', Array)
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(832): App\Controllers\Home->karyawan()
+#4 C:\xampp\htdocs\naruto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-11-10 00:07:07 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\naruto\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\naruto\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\naruto\app\Controllers\Home.php(224): CodeIgniter\Model->__call('join', Array)
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(832): App\Controllers\Home->karyawan()
+#4 C:\xampp\htdocs\naruto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-11-10 00:07:19 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\naruto\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\naruto\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\naruto\app\Controllers\Home.php(224): CodeIgniter\Model->__call('join', Array)
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(832): App\Controllers\Home->karyawan()
+#4 C:\xampp\htdocs\naruto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-11-10 00:07:29 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\naruto\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\naruto\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\naruto\app\Controllers\Home.php(224): CodeIgniter\Model->__call('join', Array)
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(832): App\Controllers\Home->karyawan()
+#4 C:\xampp\htdocs\naruto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-11-10 00:08:32 --> Unknown column 'karyawan.id_username' in 'on clause'
+CRITICAL - 2022-11-10 00:08:32 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\naruto\app\Controllers\Home.php(224): App\Models\M_pj->fusion('karyawan', 'user', 'karyawan.id_use...')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(832): App\Controllers\Home->karyawan()
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-11-10 00:09:27 --> Unknown column 'karyawan.id_username' in 'on clause'
+CRITICAL - 2022-11-10 00:09:27 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\naruto\app\Controllers\Home.php(224): App\Models\M_pj->fusion('karyawan', 'user', 'karyawan.id_use...')
+#1 C:\xampp\htdocs\naruto\system\CodeIgniter.php(832): App\Controllers\Home->karyawan()
+#2 C:\xampp\htdocs\naruto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\naruto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\naruto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\naruto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
