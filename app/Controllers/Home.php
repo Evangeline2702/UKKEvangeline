@@ -14,10 +14,10 @@ class Home extends BaseController
     {
         if (session()->get('id_u')>0) {
         $evan = new M_pj();
-        $data['okta'] = $evan->tampil('barang');
+        // $data['okta'] = $evan->tampil('barang');
         echo view('header');
         echo view('menu');
-        echo view('barang',$data);
+        // echo view('barang',$data);
         echo view('footer');
         }else{
         return redirect()->to('home/login');
@@ -109,6 +109,35 @@ class Home extends BaseController
             
         echo view('header');
         echo view('menu');
+        echo view('dashboard');
+        echo view('footer');
+    
+    }else{
+        return redirect()->to('home/login');
+    }
+}   
+    public function gallery()
+    {
+        if (session()->get('id_u')>0) {
+        $evan = new M_pj();
+        $data['photos'] = $evan->tampil('album');;
+        echo view('header');
+        echo view('menu');
+        echo view('gallery');
+        echo view('footer');
+
+    
+    }else{
+        return redirect()->to('home/login');
+    }
+    }   
+    public function contact()
+    {
+        if (session()->get('id_u')>0) {
+            
+        echo view('header');
+        echo view('menu');
+        echo view('contact');
         echo view('footer');
     
     }else{
@@ -161,6 +190,19 @@ class Home extends BaseController
         return redirect()->to('home/login');
     }
     }
+    public function tambah_f()
+    {
+        if (session()->get('id_u')>0) {
+        $evan = new  M_pj();
+        $data['okta'] = $evan->tampil('foto');
+        echo view('header');
+        echo view('menu');
+        echo view('tambah_f',$data);
+        echo view('footer');
+        }else{
+        return redirect()->to('home/login');
+    }
+    }
     public function tambah_bm()
     {
         if (session()->get('id_u')>0) {
@@ -204,6 +246,28 @@ class Home extends BaseController
                     'Tanggal'=>$tanggal,
                 );
         $evan->simpan('barang',$data);
+        return redirect()->to('home');
+        }else{
+        return redirect()->to('home/login');
+    }
+    }
+    public function aksi_tambah_f()
+    {
+        if (session()->get('id_u')>0) {
+        $evan = new M_pj();
+        $JudulFoto=$this->request->getPost('JudulFoto');
+        $DeskripsiFoto=$this->request->getPost('DeskripsiFoto');
+        $TanggalUnggah=$this->request->getPost('TanggalUnggah');
+        $LokasiFile=$this->request->getPost('LokasiFile');
+        // $tanggal=$this->request->getPost('Tanggal');
+        $data=array(
+                    'JudulFoto'=>$JudulFoto,
+                    'DeskripsiFoto'=>$DeskripsiFoto,
+                    'TanggalUnggah'=>$TanggalUnggah,
+                    'LokasiFile'=>$LokasiFile,
+                    // 'Tanggal'=>$tanggal,
+                );
+        $evan->simpan('gallery',$data);
         return redirect()->to('home');
         }else{
         return redirect()->to('home/login');
@@ -492,29 +556,34 @@ class Home extends BaseController
     }
     public function login()
     {
-        echo view('v_login');
-    }
-    public function aksi_login()
-    {
-        $u=$this->request->getPost('u');
-        $p=$this->request->getPost('p');
-        $where=array(
-            'username'=>$u,
-            'password'=>md5($p)
-        );
-        $evan= new M_pj();
-        $kwaseng=$evan->getWhere('user',$where);
-        
 
-        if ($kwaseng>0) {
-            session()->set('id_u',$kwaseng->id_user);
-            session()->set('username',$kwaseng->username);
-            session()->set('level',$kwaseng->level);
-            return redirect()->to('/home/dashboard');
-        }else{
-            return redirect()->to('/home/login');
-        }
+        echo view('css');
+        echo view('v_login');
+        
     }
+    public function proses_login()
+    {
+        $model= new M_pj();
+        $a= $this->request->getPost('a');
+        $b= $this->request->getPost('b');
+        $isi=array(
+            'username'=>$a,
+            'password'=>md5($b)
+        );
+
+        $cek=$model->getWhere('user',$isi);
+        if ($cek>0) {
+            session()->set('id_u', $cek->userID);
+            session()->set('username', $cek->username);
+            return redirect()->to('/Home/dashboard');
+        }
+        else{
+            echo "<script>
+            alert('Username atau Password Salah');
+            window.location.href='/Home/login';
+            </script>";
+        }
+    }   
     public function log_out()
     {
         session()->destroy();

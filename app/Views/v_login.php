@@ -1,103 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <!-- Meta, title, CSS, favicons, etc. -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Galeri Foto</title>
+<style>
+  body, html {
+    background-color: #333;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    <title>Gentelella Alela! | </title>
+  .container {
+    width: 80%;
+    overflow: hidden;
+    display: flex;
+    border-radius: 10px;
+  }
 
-    <!-- Bootstrap -->
-    <link href="<?= base_url('../vendors/bootstrap/dist/css/bootstrap.min.css')?>" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link href="<?= base_url('../vendors/font-awesome/css/font-awesome.min.css')?>" rel="stylesheet">
-    <!-- NProgress -->
-    <link href="<?= base_url('../vendors/nprogress/nprogress.css')?>" rel="stylesheet">
-    <!-- Animate.css -->
-    <link href="<?= base_url('../vendors/animate.css/animate.min.css')?>" rel="stylesheet">
+  .left-div, .right-div {
+    width: 50%;
+    height: 40vh;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 15px;
+    color: black;
+  }
 
-    <!-- Custom Theme Style -->
-    <link href="<?= base_url('../build/css/custom.min.css')?>" rel="stylesheet">
-  </head>
+  input[type="text"],
+  input[type="password"],
+  button {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    background-color: #54abf3;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
 
-  <body class="login">
-    <div>
-      <a class="hiddenanchor" id="signup"></a>
-      <a class="hiddenanchor" id="signin"></a>
+  button {
+    border-radius: 0%;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
 
-      <div class="login_wrapper">
-        <div class="animate form login_form">
-          <section class="login_content">
-            <form action="<?= base_url('/home/aksi_login')?>" method="post">
-              <h1>Login Form</h1>
-              <div>
-                <input type="text" class="form-control" placeholder="Username" name="u" required="" />
-              </div>
-              <div>
-                <input type="password" name="p" class="form-control" placeholder="Password" required="" />
-              </div>
-              <div>
-                <button type="submit">Log in</button>
-                <a class="reset_pass" href="#">Lost your password?</a>
-              </div>
+  button:hover {
+    background-color: #0056b3;
+  }
 
-              <div class="clearfix"></div>
+  .left-div {
+    background-color: #b5b5b5;
+    padding: 20px;
+  }
 
-              <div class="separator">
-                <p class="change_link">New to site?
-                  <a href="#signup" class="to_register"> Create Account </a>
-                </p>
+  .right-div {
+    background-color: #54abf3;
+    padding: 20px;
+  }
+</style>
+</head>
+<body>
 
-                <div class="clearfix"></div>
-                <br />
+<div class="container">
+  <div class="left-div">
+    <center>
+        <h2>Selamat Datang!</h2>
+        <p>Silahkan Buat Akun Anda</p>
+        <button>Sign Up</button>
+    </center>
+  </div>
+  <div class="right-div">
+    <center>
+        <h2>Silahkan Login!</h2>
+        <form action="<?php base_url()?>/Home/proses_login" method="post" autocomplete="off">
+            <input type="text" name="a" id="" placeholder="Username">
+            <input type="password" name="b" id="" placeholder="Password">
+            <button type="submit" name="submit">Sign In</button>
+        </form>
+    </center>
+  </div>
+</div>
 
-                <div>
-                  <h1><i class="fa fa-bank"></i> Sistem Informasi Kasir</h1>
-                  <p>Projek Akhir RPL 11B</p>
-                </div>
-              </div>
-            </form>
-          </section>
-        </div>
-
-        <div id="register" class="animate form registration_form">
-          <section class="login_content">
-            <form>
-              <h1>Create Account</h1>
-              <div>
-                <input type="text" class="form-control" placeholder="Username" required="" />
-              </div>
-              <div>
-                <input type="email" class="form-control" placeholder="Email" required="" />
-              </div>
-              <div>
-                <input type="password" class="form-control" placeholder="Password" required="" />
-              </div>
-              <div>
-                <a class="btn btn-default submit" href="index.html">Submit</a>
-              </div>
-
-              <div class="clearfix"></div>
-
-              <div class="separator">
-                <p class="change_link">Already a member ?
-                  <a href="#signin" class="to_register"> Log in </a>
-                </p>
-
-                <div class="clearfix"></div>
-                <br />
-
-                <div>
-                  <h1><i class="fa fa-bank"></i> Sistem Informasi Kasir</h1>
-                  <p>Projek Akhir RPL 11B</p>
-                </div>
-              </div>
-            </form>
-          </section>
-        </div>
-      </div>
-    </div>
-  </body>
+</body>
 </html>

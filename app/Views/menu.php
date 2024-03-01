@@ -1,55 +1,20 @@
 <!-- sidebar menu -->
-            <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+            <div id="sidebar-menu" class="main_menu_side hidden-print main_menu" style="width: 220px; height: 500px;">
               <div class="menu_section">
                 <h3>General</h3>
                 <ul class="nav side-menu">
                   <li><a href="<?= base_url('/home/dashboard')?>"><i class="fa fa-home"></i> Home</a>
                   </li>
-                  <li><a><i class="fa fa-edit"></i> transaksi <span class="fa fa-chevron-down"></span></a>
+                  <li><a href="<?= base_url('/home/gallery')?>"><i class="fa fa-bank"></i> Gallery Photo</a>
+                    <!-- <li><a><i class="fa fa-bank"></i> Gallery Photo <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <?php
-                      $level=session()->get('level');
-                      if($level==1 || $level==4){
-                      ?>
-                      <li><a href="<?= base_url('/home/t_brg')?>">Barang</a></li>
-                      <li><a href="<?= base_url('/home/t_masuk')?>">Barang masuk</a></li>
-                      <li><a href="<?= base_url('/home/t_jual')?>">Penjualan</a></li>
-                      <?php 
-                      } else if($level==2 || $level==3){
-                      ?>
-                      <li><a href="<?= base_url('/home/t_jual')?>">Penjualan</a></li>
-                      <?php
-                    }
-                    ?>
-                    </ul>
+                      <li><a href="<?= base_url('/home/gallery')?>">Wedding & Pre-Wedding</a></li>
+                      <li><a href="<?= base_url('/home/minuman')?>">Minuman</a></li>
+                    </ul> -->
                   </li>
-                  <?php
-                      $level=session()->get('level');
-                      if($level==1 || $level==4){
-                      ?>
-                  <li><a><i class="fa fa-desktop"></i> Laporan <span class="fa fa-chevron-down"></span></a>
-                    <ul class="nav child_menu">
-                      <li><a href="<?= base_url('/home/l_brg')?>">Barang</a></li>
-                      <li><a href="<?= base_url('/home/l_masuk')?>">Barang Masuk</a></li>
-                      <li><a href="<?= base_url('/home/l_jual')?>">Penjualan</a></li>
-                    </ul>
+                  </li>
+                  <li><a href="<?= base_url('/home/contact')?>"><i class="fa fa-phone"></i>Contact Us</a>
                   </li> 
-                  <?php 
-                  } else{} 
-                  ?>
-                  <?php
-                      $level=session()->get('level');
-                      if($level==1 || $level==4){
-                      ?>
-                  <li><a><i class="fa fa-users"></i> Pengguna <span class="fa fa-chevron-down"></span></a>
-                    <ul class="nav child_menu">
-                      <li><a href="<?= base_url('/home/user')?>">user</a></li>
-                      <li><a href="<?= base_url('/home/karyawan')?>">karyawan</a></li>
-                    </ul>
-                  </li>
-                  <?php 
-                  } else{} 
-                  ?>
                   
               </div>
               <div class="menu_section">
@@ -63,15 +28,6 @@
 
             <!-- /menu footer buttons -->
             <div class="sidebar-footer hidden-small">
-              <a data-toggle="tooltip" data-placement="top" title="Settings">
-                <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
-              </a>
-              <a data-toggle="tooltip" data-placement="top" title="FullScreen">
-                <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
-              </a>
-              <a data-toggle="tooltip" data-placement="top" title="Lock">
-                <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
-              </a>
               <a data-toggle="tooltip" data-placement="top" title="Logout" href="<?= base_url('/home/log_out')?>">
                 <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
               </a>
@@ -90,24 +46,17 @@
 
               <ul class="nav navbar-nav navbar-right">
                 <li class="">
-                  <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                    <img src="<?= base_url('images/OIP.jpeg/')?>" alt=""><?= session()->get('username')?>
+                  <a href="javascript:;" data-toggle="dropdown" aria-expanded="false">
+                    <?= session()->get('username')?>
                     <span class=" fa fa-angle-down"></span>
                   </a>
                   <ul class="dropdown-menu dropdown-usermenu pull-right">
                     <li><a href="<?= base_url('home/edit_k/'.session()->get('id_u'))?>"> Profile</a></li>
-                    <li>
-                      <a href="javascript:;">
-                        <span class="badge bg-red pull-right">50%</span>
-                        <span>Settings</span>
-                      </a>
-                    </li>
-                    <li><a href="javascript:;">Help</a></li>
                     <li><a href="<?= base_url('home/log_out')?>"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
                   </ul>
                 </li>
 
-                <li role="presentation" class="dropdown">
+                <!-- <li role="presentation" class="dropdown">
                   <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
                     <i class="fa fa-envelope-o"></i>
                     <span class="badge bg-green">6</span>
@@ -160,15 +109,15 @@
                           Film festivals used to be do-or-die moments for movie makers. They were where...
                         </span>
                       </a>
-                    </li>
-                    <li>
+                    </li> -->
+                    <!-- <li>
                       <div class="text-center">
                         <a>
                           <strong>See All Alerts</strong>
                           <i class="fa fa-angle-right"></i>
                         </a>
                       </div>
-                    </li>
+                    </li> -->
                   </ul>
                 </li>
               </ul>
@@ -180,7 +129,7 @@
         <!-- page content -->
         <div class="right_col" role="main">
           <!-- top tiles -->
-          <div class="row tile_count">
+          <!-- <div class="row tile_count">
             <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
               <span class="count_top"><i class="fa fa-user"></i> Total Users</span>
               <div class="count">2500</div>
@@ -211,4 +160,4 @@
               <div class="count">7,325</div>
               <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>34% </i> From last Week</span>
             </div>
-          </div>
+          </div> -->
